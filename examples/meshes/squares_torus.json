@@ -1,0 +1,319 @@
+{
+  "name": "squares torus",
+  "vertices": {
+    "otl": [
+      -2,
+      2
+    ],
+    "otr": [
+      2,
+      2
+    ],
+    "obr": [
+      2,
+      -2
+    ],
+    "obl": [
+      -2,
+      -2
+    ],
+    "itl": [
+      -1,
+      1
+    ],
+    "itr": [
+      1,
+      1
+    ],
+    "ibr": [
+      1,
+      -1
+    ],
+    "ibl": [
+      -1,
+      -1
+    ]
+  },
+  "edges": [
+    {
+      "id": "o_top",
+      "vertices": [
+        "otl",
+        "otr"
+      ],
+      "polynomial": "y-2",
+      "faces": [
+        "top"
+      ],
+      "curve": {
+        "dx": "4*t",
+        "dy": "0"
+      }
+    },
+    {
+      "id": "o_right",
+      "vertices": [
+        "otr",
+        "obr"
+      ],
+      "polynomial": "x-2",
+      "faces": [
+        "right"
+      ],
+      "curve": {
+        "dx": "0",
+        "dy": "-4*t"
+      }
+    },
+    {
+      "id": "o_bottom",
+      "vertices": [
+        "obr",
+        "obl"
+      ],
+      "polynomial": "y+2",
+      "faces": [
+        "bottom"
+      ],
+      "curve": {
+        "dx": "-4*t",
+        "dy": "0"
+      }
+    },
+    {
+      "id": "o_left",
+      "vertices": [
+        "obl",
+        "otl"
+      ],
+      "polynomial": "x+2",
+      "faces": [
+        "left"
+      ],
+      "curve": {
+        "dx": "0",
+        "dy": "4*t"
+      }
+    },
+    {
+      "id": "i_top",
+      "vertices": [
+        "itl",
+        "itr"
+      ],
+      "polynomial": "y-1",
+      "faces": [
+        "top",
+        "center"
+      ],
+      "curve": {
+        "dx": "2*t",
+        "dy": "0"
+      }
+    },
+    {
+      "id": "i_right",
+      "vertices": [
+        "itr",
+        "ibr"
+      ],
+      "polynomial": "x-1",
+      "faces": [
+        "right",
+        "center"
+      ],
+      "curve": {
+        "dx": "0",
+        "dy": "-2*t"
+      }
+    },
+    {
+      "id": "i_bottom",
+      "vertices": [
+        "ibr",
+        "ibl"
+      ],
+      "polynomial": "y+1",
+      "faces": [
+        "bottom",
+        "center"
+      ],
+      "curve": {
+        "dx": "-2*t",
+        "dy": "0"
+      }
+    },
+    {
+      "id": "i_left",
+      "vertices": [
+        "ibl",
+        "itl"
+      ],
+      "polynomial": "x+1",
+      "faces": [
+        "left",
+        "center"
+      ],
+      "curve": {
+        "dx": "0",
+        "dy": "2*t"
+      }
+    },
+    {
+      "id": "join_tl",
+      "vertices": [
+        "otl",
+        "itl"
+      ],
+      "polynomial": "y+x",
+      "faces": [
+        "top",
+        "left"
+      ],
+      "curve": {
+        "dx": "t",
+        "dy": "-t"
+      }
+    },
+    {
+      "id": "join_tr",
+      "vertices": [
+        "otr",
+        "itr"
+      ],
+      "polynomial": "y-x",
+      "faces": [
+        "top",
+        "right"
+      ],
+      "curve": {
+        "dx": "-t",
+        "dy": "-t"
+      }
+    },
+    {
+      "id": "join_br",
+      "vertices": [
+        "obr",
+        "ibr"
+      ],
+      "polynomial": "y+x",
+      "faces": [
+        "bottom",
+        "right"
+      ],
+      "curve": {
+        "dx": "-t",
+        "dy": "t"
+      }
+    },
+    {
+      "id": "join_bl",
+      "vertices": [
+        "obl",
+        "ibl"
+      ],
+      "polynomial": "y-x",
+      "faces": [
+        "bottom",
+        "left"
+      ],
+      "curve": {
+        "dx": "t",
+        "dy": "t"
+      }
+    }
+  ],
+  "faces": [
+    {
+      "id": "top",
+      "grid": {
+        "y": [
+          "1",
+          "2"
+        ],
+        "x": [
+          "-y",
+          "y"
+        ]
+      },
+      "local_origin": "itl"
+    },
+    {
+      "id": "right",
+      "grid": {
+        "y": [
+          "-2",
+          "2"
+        ],
+        "x": [
+          "Abs(y)",
+          "2"
+        ]
+      },
+      "local_origin": "obr"
+    },
+    {
+      "id": "bottom",
+      "grid": {
+        "y": [
+          "-2",
+          "-1"
+        ],
+        "x": [
+          "y",
+          "-y"
+        ]
+      },
+      "local_origin": "obl"
+    },
+    {
+      "id": "left",
+      "grid": {
+        "y": [
+          "-2",
+          "2"
+        ],
+        "x": [
+          "-2",
+          "-Abs(y)"
+        ]
+      },
+      "local_origin": "obl"
+    },
+    {
+      "id": "center",
+      "grid": {
+        "y": [
+          "-1",
+          "1"
+        ],
+        "x": [
+          "-1",
+          "1"
+        ]
+      },
+      "local_origin": "ibl"
+    }
+  ],
+  "periodic_identifications": [
+    {
+      "id": "left_right",
+      "source": "o_left",
+      "target": "o_right",
+      "translation": [
+        "4",
+        "0"
+      ]
+    },
+    {
+      "id": "bottom_top",
+      "source": "o_bottom",
+      "target": "o_top",
+      "translation": [
+        "0",
+        "4"
+      ]
+    }
+  ]
+}

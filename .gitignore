@@ -1,0 +1,20 @@
+# Local environments and Python artifacts
+/venv/
+/.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+/build/
+/dist/
+/.pytest_cache/
+/.mypy_cache/
+/.ruff_cache/
+.coverage
+
+# Local project history and generated output
+/archive/
+/plots/*.png
+/.filmstar-git/
+/.agents/
+/.aws/
+/.codex/

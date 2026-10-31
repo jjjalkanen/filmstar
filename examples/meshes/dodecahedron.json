@@ -1,0 +1,1163 @@
+{
+  "name": "dodecahedron",
+  "vertices": {
+    "A0": [
+      "0",
+      "sqrt(5/2 - sqrt(5)/2)/2 + sqrt(sqrt(5)/2 + 5/2)/2"
+    ],
+    "A1": [
+      "-sqrt(5)/4 - 1/4",
+      "sqrt(sqrt(5)/2 + 5/2)/2"
+    ],
+    "A2": [
+      "-1/2",
+      "0"
+    ],
+    "A3": [
+      "1/2",
+      "0"
+    ],
+    "A4": [
+      "1/4 + sqrt(5)/4",
+      "sqrt(sqrt(5)/2 + 5/2)/2"
+    ],
+    "A5": [
+      "-sqrt(5)/2 - 1/2",
+      "sqrt(5/2 - sqrt(5)/2)/2 + sqrt(sqrt(5)/2 + 5/2)/2"
+    ],
+    "A6": [
+      "-3/4 - sqrt(5)/4",
+      "sqrt(5/2 - sqrt(5)/2)/2 + sqrt(sqrt(5)/2 + 5/2)"
+    ],
+    "A7": [
+      "1/4 - sqrt(5)/4",
+      "sqrt(5/2 - sqrt(5)/2)/2 + sqrt(sqrt(5)/2 + 5/2)"
+    ],
+    "A8": [
+      "-3/4 - sqrt(5)/4",
+      "-sqrt(5/2 - sqrt(5)/2)/2"
+    ],
+    "A9": [
+      "-sqrt(5)/2 - 1",
+      "0"
+    ],
+    "A10": [
+      "-5/4 - sqrt(5)/4",
+      "sqrt(sqrt(5)/2 + 5/2)/2"
+    ],
+    "A11": [
+      "-sqrt(5)/4 - 1/4",
+      "-sqrt(sqrt(5)/2 + 5/2)/2"
+    ],
+    "A12": [
+      "0",
+      "-sqrt(sqrt(5)/2 + 5/2)/2 - sqrt(5/2 - sqrt(5)/2)/2"
+    ],
+    "A13": [
+      "1/4 + sqrt(5)/4",
+      "-sqrt(sqrt(5)/2 + 5/2)/2"
+    ],
+    "A14": [
+      "sqrt(5)/4 + 3/4",
+      "-sqrt(5/2 - sqrt(5)/2)/2"
+    ],
+    "A15": [
+      "1 + sqrt(5)/2",
+      "0"
+    ],
+    "A16": [
+      "sqrt(5)/4 + 5/4",
+      "sqrt(sqrt(5)/2 + 5/2)/2"
+    ],
+    "A17": [
+      "1/2 + sqrt(5)/2",
+      "sqrt(5/2 - sqrt(5)/2)/2 + sqrt(sqrt(5)/2 + 5/2)/2"
+    ],
+    "A18": [
+      "sqrt(5)/4 + 3/4",
+      "sqrt(5/2 - sqrt(5)/2)/2 + sqrt(sqrt(5)/2 + 5/2)"
+    ],
+    "A19": [
+      "-1/4 + sqrt(5)/4",
+      "sqrt(5/2 - sqrt(5)/2)/2 + sqrt(sqrt(5)/2 + 5/2)"
+    ],
+    "B0": [
+      "0",
+      "sqrt(5/2 - sqrt(5)/2)/2 + 3*sqrt(sqrt(5)/2 + 5/2)/2"
+    ],
+    "B1": [
+      "-sqrt(5)/4 - 1/4",
+      "sqrt(5/2 - sqrt(5)/2) + 3*sqrt(sqrt(5)/2 + 5/2)/2"
+    ],
+    "B2": [
+      "-1/2",
+      "sqrt(5/2 - sqrt(5)/2) + 2*sqrt(sqrt(5)/2 + 5/2)"
+    ],
+    "B3": [
+      "1/2",
+      "sqrt(5/2 - sqrt(5)/2) + 2*sqrt(sqrt(5)/2 + 5/2)"
+    ],
+    "B4": [
+      "1/4 + sqrt(5)/4",
+      "sqrt(5/2 - sqrt(5)/2) + 3*sqrt(sqrt(5)/2 + 5/2)/2"
+    ],
+    "B5": [
+      "-sqrt(5)/2 - 1/2",
+      "sqrt(5/2 - sqrt(5)/2)/2 + 3*sqrt(sqrt(5)/2 + 5/2)/2"
+    ],
+    "B6": [
+      "-3/4 - sqrt(5)/4",
+      "sqrt(5/2 - sqrt(5)/2)/2 + sqrt(sqrt(5)/2 + 5/2)"
+    ],
+    "B7": [
+      "1/4 - sqrt(5)/4",
+      "sqrt(5/2 - sqrt(5)/2)/2 + sqrt(sqrt(5)/2 + 5/2)"
+    ],
+    "B8": [
+      "-3/4 - sqrt(5)/4",
+      "3*sqrt(5/2 - sqrt(5)/2)/2 + 2*sqrt(sqrt(5)/2 + 5/2)"
+    ],
+    "B9": [
+      "-sqrt(5)/2 - 1",
+      "sqrt(5/2 - sqrt(5)/2) + 2*sqrt(sqrt(5)/2 + 5/2)"
+    ],
+    "B10": [
+      "-5/4 - sqrt(5)/4",
+      "sqrt(5/2 - sqrt(5)/2) + 3*sqrt(sqrt(5)/2 + 5/2)/2"
+    ],
+    "B11": [
+      "-sqrt(5)/4 - 1/4",
+      "sqrt(5/2 - sqrt(5)/2) + 5*sqrt(sqrt(5)/2 + 5/2)/2"
+    ],
+    "B12": [
+      "0",
+      "3*sqrt(5/2 - sqrt(5)/2)/2 + 5*sqrt(sqrt(5)/2 + 5/2)/2"
+    ],
+    "B13": [
+      "1/4 + sqrt(5)/4",
+      "sqrt(5/2 - sqrt(5)/2) + 5*sqrt(sqrt(5)/2 + 5/2)/2"
+    ],
+    "B14": [
+      "sqrt(5)/4 + 3/4",
+      "3*sqrt(5/2 - sqrt(5)/2)/2 + 2*sqrt(sqrt(5)/2 + 5/2)"
+    ],
+    "B15": [
+      "1 + sqrt(5)/2",
+      "sqrt(5/2 - sqrt(5)/2) + 2*sqrt(sqrt(5)/2 + 5/2)"
+    ],
+    "B16": [
+      "sqrt(5)/4 + 5/4",
+      "sqrt(5/2 - sqrt(5)/2) + 3*sqrt(sqrt(5)/2 + 5/2)/2"
+    ],
+    "B17": [
+      "1/2 + sqrt(5)/2",
+      "sqrt(5/2 - sqrt(5)/2)/2 + 3*sqrt(sqrt(5)/2 + 5/2)/2"
+    ],
+    "B18": [
+      "sqrt(5)/4 + 3/4",
+      "sqrt(5/2 - sqrt(5)/2)/2 + sqrt(sqrt(5)/2 + 5/2)"
+    ],
+    "B19": [
+      "-1/4 + sqrt(5)/4",
+      "sqrt(5/2 - sqrt(5)/2)/2 + sqrt(sqrt(5)/2 + 5/2)"
+    ]
+  },
+  "edges": [
+    {
+      "id": "edge_A2_A3",
+      "vertices": [
+        "A2",
+        "A3"
+      ],
+      "polynomial": "y",
+      "faces": [
+        "F1",
+        "F4"
+      ],
+      "curve": {
+        "dx": "t",
+        "dy": "0"
+      }
+    },
+    {
+      "id": "edge_A3_A4",
+      "vertices": [
+        "A3",
+        "A4"
+      ],
+      "polynomial": "-x*sqrt(sqrt(5)/2 + 5/2)/2 - y/4 + sqrt(5)*y/4 + sqrt(sqrt(5)/2 + 5/2)/4",
+      "faces": [
+        "F1",
+        "F5"
+      ],
+      "curve": {
+        "dx": "-t/4 + sqrt(5)*t/4",
+        "dy": "t*sqrt(sqrt(5)/2 + 5/2)/2"
+      }
+    },
+    {
+      "id": "edge_A0_A4",
+      "vertices": [
+        "A0",
+        "A4"
+      ],
+      "polynomial": "x*sqrt(5/2 - sqrt(5)/2)/2 + y/4 + sqrt(5)*y/4 - sqrt(5)*sqrt(sqrt(5)/2 + 5/2)/8 - sqrt(5)*sqrt(5/2 - sqrt(5)/2)/8 - sqrt(sqrt(5)/2 + 5/2)/8 - sqrt(5/2 - sqrt(5)/2)/8",
+      "faces": [
+        "F1",
+        "F6"
+      ],
+      "curve": {
+        "dx": "t/4 + sqrt(5)*t/4",
+        "dy": "-t*sqrt(5/2 - sqrt(5)/2)/2"
+      }
+    },
+    {
+      "id": "edge_A0_A1",
+      "vertices": [
+        "A0",
+        "A1"
+      ],
+      "polynomial": "x*sqrt(5/2 - sqrt(5)/2)/2 - sqrt(5)*y/4 - y/4 + sqrt(5/2 - sqrt(5)/2)/8 + sqrt(sqrt(5)/2 + 5/2)/8 + sqrt(5)*sqrt(5/2 - sqrt(5)/2)/8 + sqrt(5)*sqrt(sqrt(5)/2 + 5/2)/8",
+      "faces": [
+        "F1",
+        "F2"
+      ],
+      "curve": {
+        "dx": "-sqrt(5)*t/4 - t/4",
+        "dy": "-t*sqrt(5/2 - sqrt(5)/2)/2"
+      }
+    },
+    {
+      "id": "edge_A1_A2",
+      "vertices": [
+        "A1",
+        "A2"
+      ],
+      "polynomial": "x*sqrt(sqrt(5)/2 + 5/2)/2 - y/4 + sqrt(5)*y/4 + sqrt(sqrt(5)/2 + 5/2)/4",
+      "faces": [
+        "F1",
+        "F3"
+      ],
+      "curve": {
+        "dx": "-t/4 + sqrt(5)*t/4",
+        "dy": "-t*sqrt(sqrt(5)/2 + 5/2)/2"
+      }
+    },
+    {
+      "id": "edge_A0_A7",
+      "vertices": [
+        "A0",
+        "A7"
+      ],
+      "polynomial": "-x*sqrt(sqrt(5)/2 + 5/2)/2 - sqrt(5)*y/4 + y/4 - sqrt(sqrt(5)/2 + 5/2)/8 - sqrt(5/2 - sqrt(5)/2)/8 + sqrt(5)*sqrt(5/2 - sqrt(5)/2)/8 + sqrt(5)*sqrt(sqrt(5)/2 + 5/2)/8",
+      "faces": [
+        "F2"
+      ],
+      "curve": {
+        "dx": "-sqrt(5)*t/4 + t/4",
+        "dy": "t*sqrt(sqrt(5)/2 + 5/2)/2"
+      }
+    },
+    {
+      "id": "edge_A6_A7",
+      "vertices": [
+        "A6",
+        "A7"
+      ],
+      "polynomial": "y - sqrt(sqrt(5)/2 + 5/2) - sqrt(5/2 - sqrt(5)/2)/2",
+      "faces": [
+        "F2"
+      ],
+      "curve": {
+        "dx": "t",
+        "dy": "0"
+      }
+    },
+    {
+      "id": "edge_A5_A6",
+      "vertices": [
+        "A5",
+        "A6"
+      ],
+      "polynomial": "-x*sqrt(sqrt(5)/2 + 5/2)/2 - y/4 + sqrt(5)*y/4 - 3*sqrt(5)*sqrt(sqrt(5)/2 + 5/2)/8 - sqrt(5)*sqrt(5/2 - sqrt(5)/2)/8 - sqrt(sqrt(5)/2 + 5/2)/8 + sqrt(5/2 - sqrt(5)/2)/8",
+      "faces": [
+        "F2"
+      ],
+      "curve": {
+        "dx": "-t/4 + sqrt(5)*t/4",
+        "dy": "t*sqrt(sqrt(5)/2 + 5/2)/2"
+      }
+    },
+    {
+      "id": "edge_A1_A5",
+      "vertices": [
+        "A1",
+        "A5"
+      ],
+      "polynomial": "-x*sqrt(5/2 - sqrt(5)/2)/2 - sqrt(5)*y/4 - y/4 - sqrt(5)*sqrt(5/2 - sqrt(5)/2)/8 - sqrt(5/2 - sqrt(5)/2)/8 + sqrt(sqrt(5)/2 + 5/2)/8 + sqrt(5)*sqrt(sqrt(5)/2 + 5/2)/8",
+      "faces": [
+        "F2"
+      ],
+      "curve": {
+        "dx": "-sqrt(5)*t/4 - t/4",
+        "dy": "t*sqrt(5/2 - sqrt(5)/2)/2"
+      }
+    },
+    {
+      "id": "edge_A1_A10",
+      "vertices": [
+        "A1",
+        "A10"
+      ],
+      "polynomial": "-y + sqrt(sqrt(5)/2 + 5/2)/2",
+      "faces": [
+        "F3"
+      ],
+      "curve": {
+        "dx": "-t",
+        "dy": "0"
+      }
+    },
+    {
+      "id": "edge_A10_A9",
+      "vertices": [
+        "A10",
+        "A9"
+      ],
+      "polynomial": "x*sqrt(sqrt(5)/2 + 5/2)/2 - sqrt(5)*y/4 + y/4 + sqrt(sqrt(5)/2 + 5/2)/2 + sqrt(5)*sqrt(sqrt(5)/2 + 5/2)/4",
+      "faces": [
+        "F3"
+      ],
+      "curve": {
+        "dx": "-sqrt(5)*t/4 + t/4",
+        "dy": "-t*sqrt(sqrt(5)/2 + 5/2)/2"
+      }
+    },
+    {
+      "id": "edge_A8_A9",
+      "vertices": [
+        "A8",
+        "A9"
+      ],
+      "polynomial": "-x*sqrt(5/2 - sqrt(5)/2)/2 - sqrt(5)*y/4 - y/4 - sqrt(5)*sqrt(5/2 - sqrt(5)/2)/4 - sqrt(5/2 - sqrt(5)/2)/2",
+      "faces": [
+        "F3"
+      ],
+      "curve": {
+        "dx": "-sqrt(5)*t/4 - t/4",
+        "dy": "t*sqrt(5/2 - sqrt(5)/2)/2"
+      }
+    },
+    {
+      "id": "edge_A2_A8",
+      "vertices": [
+        "A2",
+        "A8"
+      ],
+      "polynomial": "x*sqrt(5/2 - sqrt(5)/2)/2 - sqrt(5)*y/4 - y/4 + sqrt(5/2 - sqrt(5)/2)/4",
+      "faces": [
+        "F3"
+      ],
+      "curve": {
+        "dx": "-sqrt(5)*t/4 - t/4",
+        "dy": "-t*sqrt(5/2 - sqrt(5)/2)/2"
+      }
+    },
+    {
+      "id": "edge_A11_A2",
+      "vertices": [
+        "A11",
+        "A2"
+      ],
+      "polynomial": "-x*sqrt(sqrt(5)/2 + 5/2)/2 - y/4 + sqrt(5)*y/4 - sqrt(sqrt(5)/2 + 5/2)/4",
+      "faces": [
+        "F4"
+      ],
+      "curve": {
+        "dx": "-t/4 + sqrt(5)*t/4",
+        "dy": "t*sqrt(sqrt(5)/2 + 5/2)/2"
+      }
+    },
+    {
+      "id": "edge_A11_A12",
+      "vertices": [
+        "A11",
+        "A12"
+      ],
+      "polynomial": "x*sqrt(5/2 - sqrt(5)/2)/2 + y/4 + sqrt(5)*y/4 + sqrt(5/2 - sqrt(5)/2)/8 + sqrt(sqrt(5)/2 + 5/2)/8 + sqrt(5)*sqrt(5/2 - sqrt(5)/2)/8 + sqrt(5)*sqrt(sqrt(5)/2 + 5/2)/8",
+      "faces": [
+        "F4"
+      ],
+      "curve": {
+        "dx": "t/4 + sqrt(5)*t/4",
+        "dy": "-t*sqrt(5/2 - sqrt(5)/2)/2"
+      }
+    },
+    {
+      "id": "edge_A12_A13",
+      "vertices": [
+        "A12",
+        "A13"
+      ],
+      "polynomial": "-x*sqrt(5/2 - sqrt(5)/2)/2 + y/4 + sqrt(5)*y/4 + sqrt(5/2 - sqrt(5)/2)/8 + sqrt(sqrt(5)/2 + 5/2)/8 + sqrt(5)*sqrt(5/2 - sqrt(5)/2)/8 + sqrt(5)*sqrt(sqrt(5)/2 + 5/2)/8",
+      "faces": [
+        "F4"
+      ],
+      "curve": {
+        "dx": "t/4 + sqrt(5)*t/4",
+        "dy": "t*sqrt(5/2 - sqrt(5)/2)/2"
+      }
+    },
+    {
+      "id": "edge_A13_A3",
+      "vertices": [
+        "A13",
+        "A3"
+      ],
+      "polynomial": "-x*sqrt(sqrt(5)/2 + 5/2)/2 - sqrt(5)*y/4 + y/4 + sqrt(sqrt(5)/2 + 5/2)/4",
+      "faces": [
+        "F4"
+      ],
+      "curve": {
+        "dx": "-sqrt(5)*t/4 + t/4",
+        "dy": "t*sqrt(sqrt(5)/2 + 5/2)/2"
+      }
+    },
+    {
+      "id": "edge_A14_A3",
+      "vertices": [
+        "A14",
+        "A3"
+      ],
+      "polynomial": "-x*sqrt(5/2 - sqrt(5)/2)/2 - sqrt(5)*y/4 - y/4 + sqrt(5/2 - sqrt(5)/2)/4",
+      "faces": [
+        "F5"
+      ],
+      "curve": {
+        "dx": "-sqrt(5)*t/4 - t/4",
+        "dy": "t*sqrt(5/2 - sqrt(5)/2)/2"
+      }
+    },
+    {
+      "id": "edge_A14_A15",
+      "vertices": [
+        "A14",
+        "A15"
+      ],
+      "polynomial": "-x*sqrt(5/2 - sqrt(5)/2)/2 + y/4 + sqrt(5)*y/4 + sqrt(5/2 - sqrt(5)/2)/2 + sqrt(5)*sqrt(5/2 - sqrt(5)/2)/4",
+      "faces": [
+        "F5"
+      ],
+      "curve": {
+        "dx": "t/4 + sqrt(5)*t/4",
+        "dy": "t*sqrt(5/2 - sqrt(5)/2)/2"
+      }
+    },
+    {
+      "id": "edge_A15_A16",
+      "vertices": [
+        "A15",
+        "A16"
+      ],
+      "polynomial": "-x*sqrt(sqrt(5)/2 + 5/2)/2 - sqrt(5)*y/4 + y/4 + sqrt(sqrt(5)/2 + 5/2)/2 + sqrt(5)*sqrt(sqrt(5)/2 + 5/2)/4",
+      "faces": [
+        "F5"
+      ],
+      "curve": {
+        "dx": "-sqrt(5)*t/4 + t/4",
+        "dy": "t*sqrt(sqrt(5)/2 + 5/2)/2"
+      }
+    },
+    {
+      "id": "edge_A16_A4",
+      "vertices": [
+        "A16",
+        "A4"
+      ],
+      "polynomial": "-y + sqrt(sqrt(5)/2 + 5/2)/2",
+      "faces": [
+        "F5"
+      ],
+      "curve": {
+        "dx": "-t",
+        "dy": "0"
+      }
+    },
+    {
+      "id": "edge_A17_A4",
+      "vertices": [
+        "A17",
+        "A4"
+      ],
+      "polynomial": "x*sqrt(5/2 - sqrt(5)/2)/2 - sqrt(5)*y/4 - y/4 - sqrt(5)*sqrt(5/2 - sqrt(5)/2)/8 - sqrt(5/2 - sqrt(5)/2)/8 + sqrt(sqrt(5)/2 + 5/2)/8 + sqrt(5)*sqrt(sqrt(5)/2 + 5/2)/8",
+      "faces": [
+        "F6"
+      ],
+      "curve": {
+        "dx": "-sqrt(5)*t/4 - t/4",
+        "dy": "-t*sqrt(5/2 - sqrt(5)/2)/2"
+      }
+    },
+    {
+      "id": "edge_A17_A18",
+      "vertices": [
+        "A17",
+        "A18"
+      ],
+      "polynomial": "-x*sqrt(sqrt(5)/2 + 5/2)/2 - sqrt(5)*y/4 + y/4 - sqrt(5/2 - sqrt(5)/2)/8 + sqrt(sqrt(5)/2 + 5/2)/8 + sqrt(5)*sqrt(5/2 - sqrt(5)/2)/8 + 3*sqrt(5)*sqrt(sqrt(5)/2 + 5/2)/8",
+      "faces": [
+        "F6"
+      ],
+      "curve": {
+        "dx": "-sqrt(5)*t/4 + t/4",
+        "dy": "t*sqrt(sqrt(5)/2 + 5/2)/2"
+      }
+    },
+    {
+      "id": "edge_A18_A19",
+      "vertices": [
+        "A18",
+        "A19"
+      ],
+      "polynomial": "-y + sqrt(5/2 - sqrt(5)/2)/2 + sqrt(sqrt(5)/2 + 5/2)",
+      "faces": [
+        "F6"
+      ],
+      "curve": {
+        "dx": "-t",
+        "dy": "0"
+      }
+    },
+    {
+      "id": "edge_A0_A19",
+      "vertices": [
+        "A0",
+        "A19"
+      ],
+      "polynomial": "-x*sqrt(sqrt(5)/2 + 5/2)/2 - y/4 + sqrt(5)*y/4 - sqrt(5)*sqrt(sqrt(5)/2 + 5/2)/8 - sqrt(5)*sqrt(5/2 - sqrt(5)/2)/8 + sqrt(5/2 - sqrt(5)/2)/8 + sqrt(sqrt(5)/2 + 5/2)/8",
+      "faces": [
+        "F6"
+      ],
+      "curve": {
+        "dx": "-t/4 + sqrt(5)*t/4",
+        "dy": "t*sqrt(sqrt(5)/2 + 5/2)/2"
+      }
+    },
+    {
+      "id": "edge_B2_B3",
+      "vertices": [
+        "B2",
+        "B3"
+      ],
+      "polynomial": "y - 2*sqrt(sqrt(5)/2 + 5/2) - sqrt(5/2 - sqrt(5)/2)",
+      "faces": [
+        "F7",
+        "F10"
+      ],
+      "curve": {
+        "dx": "t",
+        "dy": "0"
+      }
+    },
+    {
+      "id": "edge_B3_B4",
+      "vertices": [
+        "B3",
+        "B4"
+      ],
+      "polynomial": "x*sqrt(sqrt(5)/2 + 5/2)/2 - y/4 + sqrt(5)*y/4 - sqrt(5)*sqrt(sqrt(5)/2 + 5/2)/2 - sqrt(5)*sqrt(5/2 - sqrt(5)/2)/4 + sqrt(5/2 - sqrt(5)/2)/4 + sqrt(sqrt(5)/2 + 5/2)/4",
+      "faces": [
+        "F7",
+        "F11"
+      ],
+      "curve": {
+        "dx": "-t/4 + sqrt(5)*t/4",
+        "dy": "-t*sqrt(sqrt(5)/2 + 5/2)/2"
+      }
+    },
+    {
+      "id": "edge_B0_B4",
+      "vertices": [
+        "B0",
+        "B4"
+      ],
+      "polynomial": "-x*sqrt(5/2 - sqrt(5)/2)/2 + y/4 + sqrt(5)*y/4 - 3*sqrt(5)*sqrt(sqrt(5)/2 + 5/2)/8 - 3*sqrt(sqrt(5)/2 + 5/2)/8 - sqrt(5)*sqrt(5/2 - sqrt(5)/2)/8 - sqrt(5/2 - sqrt(5)/2)/8",
+      "faces": [
+        "F7",
+        "F12"
+      ],
+      "curve": {
+        "dx": "t/4 + sqrt(5)*t/4",
+        "dy": "t*sqrt(5/2 - sqrt(5)/2)/2"
+      }
+    },
+    {
+      "id": "edge_B0_B1",
+      "vertices": [
+        "B0",
+        "B1"
+      ],
+      "polynomial": "-x*sqrt(5/2 - sqrt(5)/2)/2 - sqrt(5)*y/4 - y/4 + sqrt(5/2 - sqrt(5)/2)/8 + sqrt(5)*sqrt(5/2 - sqrt(5)/2)/8 + 3*sqrt(sqrt(5)/2 + 5/2)/8 + 3*sqrt(5)*sqrt(sqrt(5)/2 + 5/2)/8",
+      "faces": [
+        "F7",
+        "F8"
+      ],
+      "curve": {
+        "dx": "-sqrt(5)*t/4 - t/4",
+        "dy": "t*sqrt(5/2 - sqrt(5)/2)/2"
+      }
+    },
+    {
+      "id": "edge_B1_B2",
+      "vertices": [
+        "B1",
+        "B2"
+      ],
+      "polynomial": "-x*sqrt(sqrt(5)/2 + 5/2)/2 - y/4 + sqrt(5)*y/4 - sqrt(5)*sqrt(sqrt(5)/2 + 5/2)/2 - sqrt(5)*sqrt(5/2 - sqrt(5)/2)/4 + sqrt(5/2 - sqrt(5)/2)/4 + sqrt(sqrt(5)/2 + 5/2)/4",
+      "faces": [
+        "F7",
+        "F9"
+      ],
+      "curve": {
+        "dx": "-t/4 + sqrt(5)*t/4",
+        "dy": "t*sqrt(sqrt(5)/2 + 5/2)/2"
+      }
+    },
+    {
+      "id": "edge_B0_B7",
+      "vertices": [
+        "B0",
+        "B7"
+      ],
+      "polynomial": "x*sqrt(sqrt(5)/2 + 5/2)/2 - sqrt(5)*y/4 + y/4 - 3*sqrt(sqrt(5)/2 + 5/2)/8 - sqrt(5/2 - sqrt(5)/2)/8 + sqrt(5)*sqrt(5/2 - sqrt(5)/2)/8 + 3*sqrt(5)*sqrt(sqrt(5)/2 + 5/2)/8",
+      "faces": [
+        "F8"
+      ],
+      "curve": {
+        "dx": "-sqrt(5)*t/4 + t/4",
+        "dy": "-t*sqrt(sqrt(5)/2 + 5/2)/2"
+      }
+    },
+    {
+      "id": "edge_B6_B7",
+      "vertices": [
+        "B6",
+        "B7"
+      ],
+      "polynomial": "y - sqrt(sqrt(5)/2 + 5/2) - sqrt(5/2 - sqrt(5)/2)/2",
+      "faces": [
+        "F8"
+      ],
+      "curve": {
+        "dx": "t",
+        "dy": "0"
+      }
+    },
+    {
+      "id": "edge_B5_B6",
+      "vertices": [
+        "B5",
+        "B6"
+      ],
+      "polynomial": "x*sqrt(sqrt(5)/2 + 5/2)/2 - y/4 + sqrt(5)*y/4 - sqrt(5)*sqrt(sqrt(5)/2 + 5/2)/8 - sqrt(5)*sqrt(5/2 - sqrt(5)/2)/8 + sqrt(5/2 - sqrt(5)/2)/8 + 5*sqrt(sqrt(5)/2 + 5/2)/8",
+      "faces": [
+        "F8"
+      ],
+      "curve": {
+        "dx": "-t/4 + sqrt(5)*t/4",
+        "dy": "-t*sqrt(sqrt(5)/2 + 5/2)/2"
+      }
+    },
+    {
+      "id": "edge_B1_B5",
+      "vertices": [
+        "B1",
+        "B5"
+      ],
+      "polynomial": "x*sqrt(5/2 - sqrt(5)/2)/2 - sqrt(5)*y/4 - y/4 + 3*sqrt(5/2 - sqrt(5)/2)/8 + 3*sqrt(sqrt(5)/2 + 5/2)/8 + 3*sqrt(5)*sqrt(5/2 - sqrt(5)/2)/8 + 3*sqrt(5)*sqrt(sqrt(5)/2 + 5/2)/8",
+      "faces": [
+        "F8"
+      ],
+      "curve": {
+        "dx": "-sqrt(5)*t/4 - t/4",
+        "dy": "-t*sqrt(5/2 - sqrt(5)/2)/2"
+      }
+    },
+    {
+      "id": "edge_B1_B10",
+      "vertices": [
+        "B1",
+        "B10"
+      ],
+      "polynomial": "-y + sqrt(5/2 - sqrt(5)/2) + 3*sqrt(sqrt(5)/2 + 5/2)/2",
+      "faces": [
+        "F9"
+      ],
+      "curve": {
+        "dx": "-t",
+        "dy": "0"
+      }
+    },
+    {
+      "id": "edge_B10_B9",
+      "vertices": [
+        "B10",
+        "B9"
+      ],
+      "polynomial": "-x*sqrt(sqrt(5)/2 + 5/2)/2 - sqrt(5)*y/4 + y/4 - sqrt(sqrt(5)/2 + 5/2) - sqrt(5/2 - sqrt(5)/2)/4 + sqrt(5)*sqrt(5/2 - sqrt(5)/2)/4 + sqrt(5)*sqrt(sqrt(5)/2 + 5/2)/4",
+      "faces": [
+        "F9"
+      ],
+      "curve": {
+        "dx": "-sqrt(5)*t/4 + t/4",
+        "dy": "t*sqrt(sqrt(5)/2 + 5/2)/2"
+      }
+    },
+    {
+      "id": "edge_B8_B9",
+      "vertices": [
+        "B8",
+        "B9"
+      ],
+      "polynomial": "x*sqrt(5/2 - sqrt(5)/2)/2 - sqrt(5)*y/4 - y/4 + 3*sqrt(5/2 - sqrt(5)/2)/4 + sqrt(sqrt(5)/2 + 5/2)/2 + sqrt(5)*sqrt(5/2 - sqrt(5)/2)/2 + sqrt(5)*sqrt(sqrt(5)/2 + 5/2)/2",
+      "faces": [
+        "F9"
+      ],
+      "curve": {
+        "dx": "-sqrt(5)*t/4 - t/4",
+        "dy": "-t*sqrt(5/2 - sqrt(5)/2)/2"
+      }
+    },
+    {
+      "id": "edge_B2_B8",
+      "vertices": [
+        "B2",
+        "B8"
+      ],
+      "polynomial": "-x*sqrt(5/2 - sqrt(5)/2)/2 - sqrt(5)*y/4 - y/4 + sqrt(5)*sqrt(5/2 - sqrt(5)/2)/4 + sqrt(sqrt(5)/2 + 5/2)/2 + sqrt(5)*sqrt(sqrt(5)/2 + 5/2)/2",
+      "faces": [
+        "F9"
+      ],
+      "curve": {
+        "dx": "-sqrt(5)*t/4 - t/4",
+        "dy": "t*sqrt(5/2 - sqrt(5)/2)/2"
+      }
+    },
+    {
+      "id": "edge_B11_B2",
+      "vertices": [
+        "B11",
+        "B2"
+      ],
+      "polynomial": "x*sqrt(sqrt(5)/2 + 5/2)/2 - y/4 + sqrt(5)*y/4 - sqrt(5)*sqrt(sqrt(5)/2 + 5/2)/2 - sqrt(5)*sqrt(5/2 - sqrt(5)/2)/4 + sqrt(5/2 - sqrt(5)/2)/4 + 3*sqrt(sqrt(5)/2 + 5/2)/4",
+      "faces": [
+        "F10"
+      ],
+      "curve": {
+        "dx": "-t/4 + sqrt(5)*t/4",
+        "dy": "-t*sqrt(sqrt(5)/2 + 5/2)/2"
+      }
+    },
+    {
+      "id": "edge_B11_B12",
+      "vertices": [
+        "B11",
+        "B12"
+      ],
+      "polynomial": "-x*sqrt(5/2 - sqrt(5)/2)/2 + y/4 + sqrt(5)*y/4 - 5*sqrt(5)*sqrt(sqrt(5)/2 + 5/2)/8 - 5*sqrt(sqrt(5)/2 + 5/2)/8 - 3*sqrt(5)*sqrt(5/2 - sqrt(5)/2)/8 - 3*sqrt(5/2 - sqrt(5)/2)/8",
+      "faces": [
+        "F10"
+      ],
+      "curve": {
+        "dx": "t/4 + sqrt(5)*t/4",
+        "dy": "t*sqrt(5/2 - sqrt(5)/2)/2"
+      }
+    },
+    {
+      "id": "edge_B12_B13",
+      "vertices": [
+        "B12",
+        "B13"
+      ],
+      "polynomial": "x*sqrt(5/2 - sqrt(5)/2)/2 + y/4 + sqrt(5)*y/4 - 5*sqrt(5)*sqrt(sqrt(5)/2 + 5/2)/8 - 5*sqrt(sqrt(5)/2 + 5/2)/8 - 3*sqrt(5)*sqrt(5/2 - sqrt(5)/2)/8 - 3*sqrt(5/2 - sqrt(5)/2)/8",
+      "faces": [
+        "F10"
+      ],
+      "curve": {
+        "dx": "t/4 + sqrt(5)*t/4",
+        "dy": "-t*sqrt(5/2 - sqrt(5)/2)/2"
+      }
+    },
+    {
+      "id": "edge_B13_B3",
+      "vertices": [
+        "B13",
+        "B3"
+      ],
+      "polynomial": "x*sqrt(sqrt(5)/2 + 5/2)/2 - sqrt(5)*y/4 + y/4 - 3*sqrt(sqrt(5)/2 + 5/2)/4 - sqrt(5/2 - sqrt(5)/2)/4 + sqrt(5)*sqrt(5/2 - sqrt(5)/2)/4 + sqrt(5)*sqrt(sqrt(5)/2 + 5/2)/2",
+      "faces": [
+        "F10"
+      ],
+      "curve": {
+        "dx": "-sqrt(5)*t/4 + t/4",
+        "dy": "-t*sqrt(sqrt(5)/2 + 5/2)/2"
+      }
+    },
+    {
+      "id": "edge_B14_B3",
+      "vertices": [
+        "B14",
+        "B3"
+      ],
+      "polynomial": "x*sqrt(5/2 - sqrt(5)/2)/2 - sqrt(5)*y/4 - y/4 + sqrt(5)*sqrt(5/2 - sqrt(5)/2)/4 + sqrt(sqrt(5)/2 + 5/2)/2 + sqrt(5)*sqrt(sqrt(5)/2 + 5/2)/2",
+      "faces": [
+        "F11"
+      ],
+      "curve": {
+        "dx": "-sqrt(5)*t/4 - t/4",
+        "dy": "-t*sqrt(5/2 - sqrt(5)/2)/2"
+      }
+    },
+    {
+      "id": "edge_B14_B15",
+      "vertices": [
+        "B14",
+        "B15"
+      ],
+      "polynomial": "x*sqrt(5/2 - sqrt(5)/2)/2 + y/4 + sqrt(5)*y/4 - sqrt(5)*sqrt(sqrt(5)/2 + 5/2)/2 - sqrt(5)*sqrt(5/2 - sqrt(5)/2)/2 - sqrt(sqrt(5)/2 + 5/2)/2 - 3*sqrt(5/2 - sqrt(5)/2)/4",
+      "faces": [
+        "F11"
+      ],
+      "curve": {
+        "dx": "t/4 + sqrt(5)*t/4",
+        "dy": "-t*sqrt(5/2 - sqrt(5)/2)/2"
+      }
+    },
+    {
+      "id": "edge_B15_B16",
+      "vertices": [
+        "B15",
+        "B16"
+      ],
+      "polynomial": "x*sqrt(sqrt(5)/2 + 5/2)/2 - sqrt(5)*y/4 + y/4 - sqrt(sqrt(5)/2 + 5/2) - sqrt(5/2 - sqrt(5)/2)/4 + sqrt(5)*sqrt(5/2 - sqrt(5)/2)/4 + sqrt(5)*sqrt(sqrt(5)/2 + 5/2)/4",
+      "faces": [
+        "F11"
+      ],
+      "curve": {
+        "dx": "-sqrt(5)*t/4 + t/4",
+        "dy": "-t*sqrt(sqrt(5)/2 + 5/2)/2"
+      }
+    },
+    {
+      "id": "edge_B16_B4",
+      "vertices": [
+        "B16",
+        "B4"
+      ],
+      "polynomial": "-y + sqrt(5/2 - sqrt(5)/2) + 3*sqrt(sqrt(5)/2 + 5/2)/2",
+      "faces": [
+        "F11"
+      ],
+      "curve": {
+        "dx": "-t",
+        "dy": "0"
+      }
+    },
+    {
+      "id": "edge_B17_B4",
+      "vertices": [
+        "B17",
+        "B4"
+      ],
+      "polynomial": "-x*sqrt(5/2 - sqrt(5)/2)/2 - sqrt(5)*y/4 - y/4 + 3*sqrt(5/2 - sqrt(5)/2)/8 + 3*sqrt(sqrt(5)/2 + 5/2)/8 + 3*sqrt(5)*sqrt(5/2 - sqrt(5)/2)/8 + 3*sqrt(5)*sqrt(sqrt(5)/2 + 5/2)/8",
+      "faces": [
+        "F12"
+      ],
+      "curve": {
+        "dx": "-sqrt(5)*t/4 - t/4",
+        "dy": "t*sqrt(5/2 - sqrt(5)/2)/2"
+      }
+    },
+    {
+      "id": "edge_B17_B18",
+      "vertices": [
+        "B18",
+        "B17"
+      ],
+      "polynomial": "-x*sqrt(sqrt(5)/2 + 5/2)/2 - y/4 + sqrt(5)*y/4 - sqrt(5)*sqrt(sqrt(5)/2 + 5/2)/8 - sqrt(5)*sqrt(5/2 - sqrt(5)/2)/8 + sqrt(5/2 - sqrt(5)/2)/8 + 5*sqrt(sqrt(5)/2 + 5/2)/8",
+      "faces": [
+        "F12"
+      ],
+      "curve": {
+        "dx": "-t/4 + sqrt(5)*t/4",
+        "dy": "t*sqrt(sqrt(5)/2 + 5/2)/2"
+      }
+    },
+    {
+      "id": "edge_B0_B19",
+      "vertices": [
+        "B19",
+        "B0"
+      ],
+      "polynomial": "-x*sqrt(sqrt(5)/2 + 5/2)/2 - sqrt(5)*y/4 + y/4 - 3*sqrt(sqrt(5)/2 + 5/2)/8 - sqrt(5/2 - sqrt(5)/2)/8 + sqrt(5)*sqrt(5/2 - sqrt(5)/2)/8 + 3*sqrt(5)*sqrt(sqrt(5)/2 + 5/2)/8",
+      "faces": [
+        "F12"
+      ],
+      "curve": {
+        "dx": "-sqrt(5)*t/4 + t/4",
+        "dy": "t*sqrt(sqrt(5)/2 + 5/2)/2"
+      }
+    },
+    {
+      "id": "edge_B18_B19",
+      "vertices": [
+        "B18",
+        "B19"
+      ],
+      "polynomial": "-y + sqrt(5/2 - sqrt(5)/2)/2 + sqrt(sqrt(5)/2 + 5/2)",
+      "faces": [
+        "F12"
+      ],
+      "curve": {
+        "dx": "-t",
+        "dy": "0"
+      }
+    }
+  ],
+  "faces": [
+    {
+      "id": "F1",
+      "local_origin": "A2",
+      "corners": [
+        "A2",
+        "A3",
+        "A4",
+        "A0",
+        "A1"
+      ]
+    },
+    {
+      "id": "F2",
+      "local_origin": "A1",
+      "corners": [
+        "A0",
+        "A7",
+        "A6",
+        "A5",
+        "A1"
+      ]
+    },
+    {
+      "id": "F3",
+      "local_origin": "A8",
+      "corners": [
+        "A1",
+        "A10",
+        "A9",
+        "A8",
+        "A2"
+      ]
+    },
+    {
+      "id": "F4",
+      "local_origin": "A12",
+      "corners": [
+        "A2",
+        "A11",
+        "A12",
+        "A13",
+        "A3"
+      ]
+    },
+    {
+      "id": "F5",
+      "local_origin": "A14",
+      "corners": [
+        "A3",
+        "A14",
+        "A15",
+        "A16",
+        "A4"
+      ]
+    },
+    {
+      "id": "F6",
+      "local_origin": "A4",
+      "corners": [
+        "A4",
+        "A17",
+        "A18",
+        "A19",
+        "A0"
+      ]
+    },
+    {
+      "id": "F7",
+      "local_origin": "B0",
+      "corners": [
+        "B2",
+        "B3",
+        "B4",
+        "B0",
+        "B1"
+      ]
+    },
+    {
+      "id": "F8",
+      "local_origin": "B6",
+      "corners": [
+        "B0",
+        "B7",
+        "B6",
+        "B5",
+        "B1"
+      ]
+    },
+    {
+      "id": "F9",
+      "local_origin": "B10",
+      "corners": [
+        "B1",
+        "B10",
+        "B9",
+        "B8",
+        "B2"
+      ]
+    },
+    {
+      "id": "F10",
+      "local_origin": "B2",
+      "corners": [
+        "B2",
+        "B11",
+        "B12",
+        "B13",
+        "B3"
+      ]
+    },
+    {
+      "id": "F11",
+      "local_origin": "B4",
+      "corners": [
+        "B3",
+        "B14",
+        "B15",
+        "B16",
+        "B4"
+      ]
+    },
+    {
+      "id": "F12",
+      "local_origin": "B19",
+      "corners": [
+        "B4",
+        "B17",
+        "B18",
+        "B19",
+        "B0"
+      ]
+    }
+  ],
+  "edge_identifications": [
+    {
+      "id": "glue_1",
+      "source": "edge_A0_A7",
+      "target": "edge_A0_A19"
+    },
+    {
+      "id": "glue_2",
+      "source": "edge_A17_A4",
+      "target": "edge_A16_A4"
+    },
+    {
+      "id": "glue_3",
+      "source": "edge_A14_A3",
+      "target": "edge_A13_A3"
+    },
+    {
+      "id": "glue_4",
+      "source": "edge_A11_A2",
+      "target": "edge_A2_A8"
+    },
+    {
+      "id": "glue_5",
+      "source": "edge_A1_A10",
+      "target": "edge_A1_A5"
+    },
+    {
+      "id": "glue_6",
+      "source": "edge_B0_B7",
+      "target": "edge_B0_B19"
+    },
+    {
+      "id": "glue_7",
+      "source": "edge_B17_B4",
+      "target": "edge_B16_B4"
+    },
+    {
+      "id": "glue_8",
+      "source": "edge_B14_B3",
+      "target": "edge_B13_B3"
+    },
+    {
+      "id": "glue_9",
+      "source": "edge_B11_B2",
+      "target": "edge_B2_B8"
+    },
+    {
+      "id": "glue_10",
+      "source": "edge_B1_B10",
+      "target": "edge_B1_B5"
+    },
+    {
+      "id": "rim_1",
+      "source": "edge_A18_A19",
+      "target": "edge_B17_B18"
+    },
+    {
+      "id": "rim_2",
+      "source": "edge_A6_A7",
+      "target": "edge_B18_B19"
+    },
+    {
+      "id": "rim_3",
+      "source": "edge_A5_A6",
+      "target": "edge_B6_B7"
+    },
+    {
+      "id": "rim_4",
+      "source": "edge_A10_A9",
+      "target": "edge_B5_B6"
+    },
+    {
+      "id": "rim_5",
+      "source": "edge_A8_A9",
+      "target": "edge_B10_B9"
+    },
+    {
+      "id": "rim_6",
+      "source": "edge_A11_A12",
+      "target": "edge_B8_B9"
+    },
+    {
+      "id": "rim_7",
+      "source": "edge_A12_A13",
+      "target": "edge_B11_B12"
+    },
+    {
+      "id": "rim_8",
+      "source": "edge_A14_A15",
+      "target": "edge_B12_B13"
+    },
+    {
+      "id": "rim_9",
+      "source": "edge_A15_A16",
+      "target": "edge_B14_B15"
+    },
+    {
+      "id": "rim_10",
+      "source": "edge_A17_A18",
+      "target": "edge_B15_B16"
+    }
+  ]
+}

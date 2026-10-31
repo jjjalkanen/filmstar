@@ -1,0 +1,129 @@
+{
+  "name": "triangles",
+  "vertices": {
+    "left": [
+      -1,
+      0
+    ],
+    "right": [
+      1,
+      0
+    ],
+    "top": [
+      0,
+      "sqrt(3)"
+    ],
+    "bottom": [
+      0,
+      "-sqrt(3)"
+    ]
+  },
+  "edges": [
+    {
+      "id": "shared",
+      "vertices": [
+        "left",
+        "right"
+      ],
+      "polynomial": "y",
+      "faces": [
+        "upper",
+        "lower"
+      ],
+      "curve": {
+        "dx": "2*t",
+        "dy": "0"
+      }
+    },
+    {
+      "id": "upper_left",
+      "vertices": [
+        "left",
+        "top"
+      ],
+      "polynomial": "sqrt(3)*x-y+sqrt(3)",
+      "faces": [
+        "upper"
+      ],
+      "curve": {
+        "dx": "t",
+        "dy": "sqrt(3)*t"
+      }
+    },
+    {
+      "id": "upper_right",
+      "vertices": [
+        "top",
+        "right"
+      ],
+      "polynomial": "sqrt(3)*x+y-sqrt(3)",
+      "faces": [
+        "upper"
+      ],
+      "curve": {
+        "dx": "t",
+        "dy": "-sqrt(3)*t"
+      }
+    },
+    {
+      "id": "lower_left",
+      "vertices": [
+        "bottom",
+        "left"
+      ],
+      "polynomial": "sqrt(3)*x+y+sqrt(3)",
+      "faces": [
+        "lower"
+      ],
+      "curve": {
+        "dx": "-t",
+        "dy": "sqrt(3)*t"
+      }
+    },
+    {
+      "id": "lower_right",
+      "vertices": [
+        "right",
+        "bottom"
+      ],
+      "polynomial": "sqrt(3)*x-y-sqrt(3)",
+      "faces": [
+        "lower"
+      ],
+      "curve": {
+        "dx": "-t",
+        "dy": "-sqrt(3)*t"
+      }
+    }
+  ],
+  "faces": [
+    {
+      "id": "upper",
+      "grid": {
+        "y": [
+          "0",
+          "sqrt(3)"
+        ],
+        "x": [
+          "-1+y/sqrt(3)",
+          "1-y/sqrt(3)"
+        ]
+      },
+      "local_origin": "left"
+    },
+    {
+      "id": "lower",
+      "grid": {
+        "y": [
+          "-sqrt(3)",
+          "0"
+        ],
+        "x": [
+          "-1-y/sqrt(3)",
+          "1+y/sqrt(3)"
+        ]
+      },
+      "local_origin": "bottom"
+    }
+  ]
+}

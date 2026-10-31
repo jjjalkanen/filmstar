@@ -1,0 +1,591 @@
+{
+  "name": "torus_parameter",
+  "vertices": {
+    "V0_0": [
+      "0",
+      "0"
+    ],
+    "V0_1": [
+      "0",
+      "1"
+    ],
+    "V0_2": [
+      "0",
+      "2"
+    ],
+    "V0_3": [
+      "0",
+      "3"
+    ],
+    "V1_0": [
+      "1",
+      "0"
+    ],
+    "V1_1": [
+      "1",
+      "1"
+    ],
+    "V1_2": [
+      "1",
+      "2"
+    ],
+    "V1_3": [
+      "1",
+      "3"
+    ],
+    "V2_0": [
+      "2",
+      "0"
+    ],
+    "V2_1": [
+      "2",
+      "1"
+    ],
+    "V2_2": [
+      "2",
+      "2"
+    ],
+    "V2_3": [
+      "2",
+      "3"
+    ],
+    "V3_0": [
+      "3",
+      "0"
+    ],
+    "V3_1": [
+      "3",
+      "1"
+    ],
+    "V3_2": [
+      "3",
+      "2"
+    ],
+    "V3_3": [
+      "3",
+      "3"
+    ]
+  },
+  "edges": [
+    {
+      "id": "h0_0",
+      "vertices": [
+        "V0_0",
+        "V1_0"
+      ],
+      "faces": [
+        "F0_0"
+      ],
+      "polynomial": "y-0",
+      "curve": {
+        "dx": "t",
+        "dy": "0"
+      }
+    },
+    {
+      "id": "h0_1",
+      "vertices": [
+        "V0_1",
+        "V1_1"
+      ],
+      "faces": [
+        "F0_0",
+        "F0_1"
+      ],
+      "polynomial": "y-1",
+      "curve": {
+        "dx": "t",
+        "dy": "0"
+      }
+    },
+    {
+      "id": "h0_2",
+      "vertices": [
+        "V0_2",
+        "V1_2"
+      ],
+      "faces": [
+        "F0_1",
+        "F0_2"
+      ],
+      "polynomial": "y-2",
+      "curve": {
+        "dx": "t",
+        "dy": "0"
+      }
+    },
+    {
+      "id": "h0_3",
+      "vertices": [
+        "V0_3",
+        "V1_3"
+      ],
+      "faces": [
+        "F0_2"
+      ],
+      "polynomial": "y-3",
+      "curve": {
+        "dx": "t",
+        "dy": "0"
+      }
+    },
+    {
+      "id": "h1_0",
+      "vertices": [
+        "V1_0",
+        "V2_0"
+      ],
+      "faces": [
+        "F1_0"
+      ],
+      "polynomial": "y-0",
+      "curve": {
+        "dx": "t",
+        "dy": "0"
+      }
+    },
+    {
+      "id": "h1_1",
+      "vertices": [
+        "V1_1",
+        "V2_1"
+      ],
+      "faces": [
+        "F1_0",
+        "F1_1"
+      ],
+      "polynomial": "y-1",
+      "curve": {
+        "dx": "t",
+        "dy": "0"
+      }
+    },
+    {
+      "id": "h1_2",
+      "vertices": [
+        "V1_2",
+        "V2_2"
+      ],
+      "faces": [
+        "F1_1",
+        "F1_2"
+      ],
+      "polynomial": "y-2",
+      "curve": {
+        "dx": "t",
+        "dy": "0"
+      }
+    },
+    {
+      "id": "h1_3",
+      "vertices": [
+        "V1_3",
+        "V2_3"
+      ],
+      "faces": [
+        "F1_2"
+      ],
+      "polynomial": "y-3",
+      "curve": {
+        "dx": "t",
+        "dy": "0"
+      }
+    },
+    {
+      "id": "h2_0",
+      "vertices": [
+        "V2_0",
+        "V3_0"
+      ],
+      "faces": [
+        "F2_0"
+      ],
+      "polynomial": "y-0",
+      "curve": {
+        "dx": "t",
+        "dy": "0"
+      }
+    },
+    {
+      "id": "h2_1",
+      "vertices": [
+        "V2_1",
+        "V3_1"
+      ],
+      "faces": [
+        "F2_0",
+        "F2_1"
+      ],
+      "polynomial": "y-1",
+      "curve": {
+        "dx": "t",
+        "dy": "0"
+      }
+    },
+    {
+      "id": "h2_2",
+      "vertices": [
+        "V2_2",
+        "V3_2"
+      ],
+      "faces": [
+        "F2_1",
+        "F2_2"
+      ],
+      "polynomial": "y-2",
+      "curve": {
+        "dx": "t",
+        "dy": "0"
+      }
+    },
+    {
+      "id": "h2_3",
+      "vertices": [
+        "V2_3",
+        "V3_3"
+      ],
+      "faces": [
+        "F2_2"
+      ],
+      "polynomial": "y-3",
+      "curve": {
+        "dx": "t",
+        "dy": "0"
+      }
+    },
+    {
+      "id": "v0_0",
+      "vertices": [
+        "V0_0",
+        "V0_1"
+      ],
+      "faces": [
+        "F0_0"
+      ],
+      "polynomial": "x-0",
+      "curve": {
+        "dx": "0",
+        "dy": "t"
+      }
+    },
+    {
+      "id": "v0_1",
+      "vertices": [
+        "V0_1",
+        "V0_2"
+      ],
+      "faces": [
+        "F0_1"
+      ],
+      "polynomial": "x-0",
+      "curve": {
+        "dx": "0",
+        "dy": "t"
+      }
+    },
+    {
+      "id": "v0_2",
+      "vertices": [
+        "V0_2",
+        "V0_3"
+      ],
+      "faces": [
+        "F0_2"
+      ],
+      "polynomial": "x-0",
+      "curve": {
+        "dx": "0",
+        "dy": "t"
+      }
+    },
+    {
+      "id": "v1_0",
+      "vertices": [
+        "V1_0",
+        "V1_1"
+      ],
+      "faces": [
+        "F0_0",
+        "F1_0"
+      ],
+      "polynomial": "x-1",
+      "curve": {
+        "dx": "0",
+        "dy": "t"
+      }
+    },
+    {
+      "id": "v1_1",
+      "vertices": [
+        "V1_1",
+        "V1_2"
+      ],
+      "faces": [
+        "F0_1",
+        "F1_1"
+      ],
+      "polynomial": "x-1",
+      "curve": {
+        "dx": "0",
+        "dy": "t"
+      }
+    },
+    {
+      "id": "v1_2",
+      "vertices": [
+        "V1_2",
+        "V1_3"
+      ],
+      "faces": [
+        "F0_2",
+        "F1_2"
+      ],
+      "polynomial": "x-1",
+      "curve": {
+        "dx": "0",
+        "dy": "t"
+      }
+    },
+    {
+      "id": "v2_0",
+      "vertices": [
+        "V2_0",
+        "V2_1"
+      ],
+      "faces": [
+        "F1_0",
+        "F2_0"
+      ],
+      "polynomial": "x-2",
+      "curve": {
+        "dx": "0",
+        "dy": "t"
+      }
+    },
+    {
+      "id": "v2_1",
+      "vertices": [
+        "V2_1",
+        "V2_2"
+      ],
+      "faces": [
+        "F1_1",
+        "F2_1"
+      ],
+      "polynomial": "x-2",
+      "curve": {
+        "dx": "0",
+        "dy": "t"
+      }
+    },
+    {
+      "id": "v2_2",
+      "vertices": [
+        "V2_2",
+        "V2_3"
+      ],
+      "faces": [
+        "F1_2",
+        "F2_2"
+      ],
+      "polynomial": "x-2",
+      "curve": {
+        "dx": "0",
+        "dy": "t"
+      }
+    },
+    {
+      "id": "v3_0",
+      "vertices": [
+        "V3_0",
+        "V3_1"
+      ],
+      "faces": [
+        "F2_0"
+      ],
+      "polynomial": "x-3",
+      "curve": {
+        "dx": "0",
+        "dy": "t"
+      }
+    },
+    {
+      "id": "v3_1",
+      "vertices": [
+        "V3_1",
+        "V3_2"
+      ],
+      "faces": [
+        "F2_1"
+      ],
+      "polynomial": "x-3",
+      "curve": {
+        "dx": "0",
+        "dy": "t"
+      }
+    },
+    {
+      "id": "v3_2",
+      "vertices": [
+        "V3_2",
+        "V3_3"
+      ],
+      "faces": [
+        "F2_2"
+      ],
+      "polynomial": "x-3",
+      "curve": {
+        "dx": "0",
+        "dy": "t"
+      }
+    }
+  ],
+  "faces": [
+    {
+      "id": "F0_0",
+      "local_origin": "V0_0",
+      "corners": [
+        "V0_0",
+        "V1_0",
+        "V1_1",
+        "V0_1"
+      ]
+    },
+    {
+      "id": "F0_1",
+      "local_origin": "V0_1",
+      "corners": [
+        "V0_1",
+        "V1_1",
+        "V1_2",
+        "V0_2"
+      ]
+    },
+    {
+      "id": "F0_2",
+      "local_origin": "V0_2",
+      "corners": [
+        "V0_2",
+        "V1_2",
+        "V1_3",
+        "V0_3"
+      ]
+    },
+    {
+      "id": "F1_0",
+      "local_origin": "V1_0",
+      "corners": [
+        "V1_0",
+        "V2_0",
+        "V2_1",
+        "V1_1"
+      ]
+    },
+    {
+      "id": "F1_1",
+      "local_origin": "V1_1",
+      "corners": [
+        "V1_1",
+        "V2_1",
+        "V2_2",
+        "V1_2"
+      ]
+    },
+    {
+      "id": "F1_2",
+      "local_origin": "V1_2",
+      "corners": [
+        "V1_2",
+        "V2_2",
+        "V2_3",
+        "V1_3"
+      ]
+    },
+    {
+      "id": "F2_0",
+      "local_origin": "V2_0",
+      "corners": [
+        "V2_0",
+        "V3_0",
+        "V3_1",
+        "V2_1"
+      ]
+    },
+    {
+      "id": "F2_1",
+      "local_origin": "V2_1",
+      "corners": [
+        "V2_1",
+        "V3_1",
+        "V3_2",
+        "V2_2"
+      ]
+    },
+    {
+      "id": "F2_2",
+      "local_origin": "V2_2",
+      "corners": [
+        "V2_2",
+        "V3_2",
+        "V3_3",
+        "V2_3"
+      ]
+    }
+  ],
+  "periodic_identifications": [
+    {
+      "id": "sx0",
+      "source": "v0_0",
+      "target": "v3_0",
+      "translation": [
+        "3",
+        "0"
+      ]
+    },
+    {
+      "id": "sx1",
+      "source": "v0_1",
+      "target": "v3_1",
+      "translation": [
+        "3",
+        "0"
+      ]
+    },
+    {
+      "id": "sx2",
+      "source": "v0_2",
+      "target": "v3_2",
+      "translation": [
+        "3",
+        "0"
+      ]
+    },
+    {
+      "id": "sy0",
+      "source": "h0_0",
+      "target": "h0_3",
+      "translation": [
+        "0",
+        "3"
+      ]
+    },
+    {
+      "id": "sy1",
+      "source": "h1_0",
+      "target": "h1_3",
+      "translation": [
+        "0",
+        "3"
+      ]
+    },
+    {
+      "id": "sy2",
+      "source": "h2_0",
+      "target": "h2_3",
+      "translation": [
+        "0",
+        "3"
+      ]
+    }
+  ]
+}

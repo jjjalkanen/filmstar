@@ -1,0 +1,410 @@
+{
+  "name": "octahedron",
+  "vertices": {
+    "C0": [
+      "3",
+      "-sqrt(3)"
+    ],
+    "C1": [
+      "0",
+      "0"
+    ],
+    "C2": [
+      "2",
+      "0"
+    ],
+    "C3": [
+      "4",
+      "0"
+    ],
+    "C4": [
+      "6",
+      "0"
+    ],
+    "C5": [
+      "-1",
+      "sqrt(3)"
+    ],
+    "C6": [
+      "1",
+      "sqrt(3)"
+    ],
+    "C7": [
+      "3",
+      "sqrt(3)"
+    ],
+    "C8": [
+      "5",
+      "sqrt(3)"
+    ],
+    "C9": [
+      "2",
+      "2*sqrt(3)"
+    ]
+  },
+  "edges": [
+    {
+      "id": "e10",
+      "vertices": [
+        "C1",
+        "C2"
+      ],
+      "polynomial": "2*y",
+      "faces": [
+        "F1"
+      ],
+      "curve": {
+        "dx": "2*t",
+        "dy": "0"
+      }
+    },
+    {
+      "id": "c2",
+      "vertices": [
+        "C2",
+        "C6"
+      ],
+      "polynomial": "-sqrt(3)*x - y + 2*sqrt(3)",
+      "faces": [
+        "F1",
+        "F2"
+      ],
+      "curve": {
+        "dx": "-t",
+        "dy": "sqrt(3)*t"
+      }
+    },
+    {
+      "id": "c1",
+      "vertices": [
+        "C1",
+        "C6"
+      ],
+      "polynomial": "-sqrt(3)*x + y",
+      "faces": [
+        "F1",
+        "F7"
+      ],
+      "curve": {
+        "dx": "t",
+        "dy": "sqrt(3)*t"
+      }
+    },
+    {
+      "id": "c3",
+      "vertices": [
+        "C2",
+        "C7"
+      ],
+      "polynomial": "-sqrt(3)*x + y + 2*sqrt(3)",
+      "faces": [
+        "F2",
+        "F3"
+      ],
+      "curve": {
+        "dx": "t",
+        "dy": "sqrt(3)*t"
+      }
+    },
+    {
+      "id": "c7",
+      "vertices": [
+        "C6",
+        "C7"
+      ],
+      "polynomial": "2*y - 2*sqrt(3)",
+      "faces": [
+        "F2",
+        "F5"
+      ],
+      "curve": {
+        "dx": "2*t",
+        "dy": "0"
+      }
+    },
+    {
+      "id": "c6",
+      "vertices": [
+        "C2",
+        "C3"
+      ],
+      "polynomial": "2*y",
+      "faces": [
+        "F3",
+        "F6"
+      ],
+      "curve": {
+        "dx": "2*t",
+        "dy": "0"
+      }
+    },
+    {
+      "id": "c4",
+      "vertices": [
+        "C3",
+        "C7"
+      ],
+      "polynomial": "-sqrt(3)*x - y + 4*sqrt(3)",
+      "faces": [
+        "F3",
+        "F4"
+      ],
+      "curve": {
+        "dx": "-t",
+        "dy": "sqrt(3)*t"
+      }
+    },
+    {
+      "id": "c5",
+      "vertices": [
+        "C3",
+        "C8"
+      ],
+      "polynomial": "-sqrt(3)*x + y + 4*sqrt(3)",
+      "faces": [
+        "F4",
+        "F8"
+      ],
+      "curve": {
+        "dx": "t",
+        "dy": "sqrt(3)*t"
+      }
+    },
+    {
+      "id": "e5",
+      "vertices": [
+        "C7",
+        "C8"
+      ],
+      "polynomial": "2*y - 2*sqrt(3)",
+      "faces": [
+        "F4"
+      ],
+      "curve": {
+        "dx": "2*t",
+        "dy": "0"
+      }
+    },
+    {
+      "id": "e4",
+      "vertices": [
+        "C7",
+        "C9"
+      ],
+      "polynomial": "-sqrt(3)*x - y + 4*sqrt(3)",
+      "faces": [
+        "F5"
+      ],
+      "curve": {
+        "dx": "-t",
+        "dy": "sqrt(3)*t"
+      }
+    },
+    {
+      "id": "e3",
+      "vertices": [
+        "C6",
+        "C9"
+      ],
+      "polynomial": "-sqrt(3)*x + y",
+      "faces": [
+        "F5"
+      ],
+      "curve": {
+        "dx": "t",
+        "dy": "sqrt(3)*t"
+      }
+    },
+    {
+      "id": "e9",
+      "vertices": [
+        "C0",
+        "C2"
+      ],
+      "polynomial": "-sqrt(3)*x - y + 2*sqrt(3)",
+      "faces": [
+        "F6"
+      ],
+      "curve": {
+        "dx": "-t",
+        "dy": "sqrt(3)*t"
+      }
+    },
+    {
+      "id": "e8",
+      "vertices": [
+        "C0",
+        "C3"
+      ],
+      "polynomial": "-sqrt(3)*x + y + 4*sqrt(3)",
+      "faces": [
+        "F6"
+      ],
+      "curve": {
+        "dx": "t",
+        "dy": "sqrt(3)*t"
+      }
+    },
+    {
+      "id": "e2",
+      "vertices": [
+        "C5",
+        "C6"
+      ],
+      "polynomial": "2*y - 2*sqrt(3)",
+      "faces": [
+        "F7"
+      ],
+      "curve": {
+        "dx": "2*t",
+        "dy": "0"
+      }
+    },
+    {
+      "id": "e1",
+      "vertices": [
+        "C1",
+        "C5"
+      ],
+      "polynomial": "-sqrt(3)*x - y",
+      "faces": [
+        "F7"
+      ],
+      "curve": {
+        "dx": "-t",
+        "dy": "sqrt(3)*t"
+      }
+    },
+    {
+      "id": "e7",
+      "vertices": [
+        "C3",
+        "C4"
+      ],
+      "polynomial": "2*y",
+      "faces": [
+        "F8"
+      ],
+      "curve": {
+        "dx": "2*t",
+        "dy": "0"
+      }
+    },
+    {
+      "id": "e6",
+      "vertices": [
+        "C4",
+        "C8"
+      ],
+      "polynomial": "-sqrt(3)*x - y + 6*sqrt(3)",
+      "faces": [
+        "F8"
+      ],
+      "curve": {
+        "dx": "-t",
+        "dy": "sqrt(3)*t"
+      }
+    }
+  ],
+  "faces": [
+    {
+      "id": "F1",
+      "local_origin": "C1",
+      "corners": [
+        "C1",
+        "C2",
+        "C6"
+      ]
+    },
+    {
+      "id": "F2",
+      "local_origin": "C2",
+      "corners": [
+        "C2",
+        "C7",
+        "C6"
+      ]
+    },
+    {
+      "id": "F3",
+      "local_origin": "C2",
+      "corners": [
+        "C2",
+        "C3",
+        "C7"
+      ]
+    },
+    {
+      "id": "F4",
+      "local_origin": "C3",
+      "corners": [
+        "C3",
+        "C8",
+        "C7"
+      ]
+    },
+    {
+      "id": "F5",
+      "local_origin": "C6",
+      "corners": [
+        "C6",
+        "C7",
+        "C9"
+      ]
+    },
+    {
+      "id": "F6",
+      "local_origin": "C0",
+      "corners": [
+        "C0",
+        "C2",
+        "C3"
+      ]
+    },
+    {
+      "id": "F7",
+      "local_origin": "C1",
+      "corners": [
+        "C1",
+        "C6",
+        "C5"
+      ]
+    },
+    {
+      "id": "F8",
+      "local_origin": "C3",
+      "corners": [
+        "C3",
+        "C4",
+        "C8"
+      ]
+    }
+  ],
+  "edge_identifications": [
+    {
+      "id": "glue_1",
+      "source": "e2",
+      "target": "e3"
+    },
+    {
+      "id": "glue_2",
+      "source": "e5",
+      "target": "e4"
+    },
+    {
+      "id": "glue_3",
+      "source": "e10",
+      "target": "e9"
+    },
+    {
+      "id": "glue_4",
+      "source": "e7",
+      "target": "e8"
+    },
+    {
+      "id": "glue_5",
+      "source": "e1",
+      "target": "e6"
+    }
+  ]
+}

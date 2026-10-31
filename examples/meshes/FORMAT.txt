@@ -1,0 +1,68 @@
+Mesh JSON format
+================
+
+See paper.json, triangles.json and squares.json for complete examples.
+
+name: A display label.
+vertices: Map from vertex ID to [x, y] coordinates in the global background
+          system. Coordinates may use exact expressions such as sqrt(2).
+edges: List of objects with unique id, vertices [start, end], defining
+       polynomial in global x and y, and faces [one face] for a boundary edge
+       or [two faces] for an interior edge. Each edge also has a curve object:
+       curve.dx and curve.dy are displacements from its start vertex, expressed
+       in the edge's own parameter t in [0,1]. At t=0 both displacements are
+       zero; at t=1 they reach the end vertex. The resulting point must lie on
+       the edge's implicit defining polynomial for every t.
+faces: List of objects with unique id and local_origin, the ID of one of its
+       corner vertices. A face's spline polynomial uses local coordinates
+       s = x - origin_x, t = y - origin_y. Its coefficients are therefore
+       independent of where the entire mesh sits in the background plane.
+       No scaling is applied, so face s,t need not stay in [0,1].
+
+For plotting, each face also needs grid.y = [minimum, maximum] vertical
+interval and grid.x = [left(y), right(y)] for every horizontal slice. The
+plotter's normalized sample coordinates run from 0 to 1 and cover the face;
+they are distinct from the spline polynomial's local s,t. The grid's first
+point must coincide with local_origin. The exact solver ignores grid data, so
+it also accepts mesh files without grids. Current plotting requires each face
+to be horizontally convex; split a more complicated face into pieces.
+
+Boundary edges affect topology and validation, but only interior edges impose
+polynomial matching conditions. The solver assembles each condition in an
+edge-centered coordinate frame. Edge implicit equations remain necessary for
+exact divisibility; the curve parameterization describes the geometric arc.
+
+Usage
+=====
+
+./run.sh --mesh examples/meshes/paper.json --deg 3 --smooth 0
+./run.sh --mesh examples/meshes/paper.json --deg 5 --smooth 1 --save plots/paper_c1_d5.png
+
+The command chooses deterministic demonstration coefficients from
+{-1, -2/3, -1/2, -1/3, 1/3, 1/2, 2/3, 1}. The solver itself requires an explicit
+coefficient vector to turn a SplineSpace into a particular Spline.
+
+Periodic identifications
+========================
+
+For a torus, add periodic_identifications as a list of objects. Each has a
+unique id, source and target boundary edge IDs, and translation [dx, dy]
+which maps the source edge to the target edge. Every boundary edge must
+appear exactly once in a pairing, and the periods must span two directions.
+The loader checks the translated endpoints, defining curves, and edge
+parameterizations exactly, allowing reversal of the target edge's t direction.
+
+Example from squares_torus.json:
+  {"id": "left_right", "source": "o_left", "target": "o_right",
+   "translation": ["4", "0"]}
+
+For smoothness r, the solver adds the identity between target and source face
+polynomials after the target's physical coordinates are translated. It is
+divisible by the source edge's implicit polynomial to power r+1, with a new
+cofactor of the allowed degree. The same matrix kernel handles interior and
+periodic constraints. The surface plot shows one flat fundamental domain;
+the identified boundaries have matching values and required derivatives.
+
+A homogeneous matching system always contains at least constant splines.
+A zero-dimensional kernel raises an error, but high smoothness alone does not
+remove the constants.

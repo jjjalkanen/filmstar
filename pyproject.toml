@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "filmstar"
+version = "0.1.0"
+description = "Polynomial spline spaces on planar and spatial meshes"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy",
+    "scipy",
+    "sympy",
+    "matplotlib",
+    "PySide6",
+]
+
+[project.scripts]
+filmstar-splines = "filmstar.cli.splines:main"
+filmstar-surfaces = "filmstar.cli.surfaces:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

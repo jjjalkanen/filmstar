@@ -1,0 +1,206 @@
+{
+  "name": "dodecahedron_surface",
+  "parameter_mesh": "../meshes/dodecahedron.json",
+  "spatial_vertices": {
+    "A0": [
+      "-sqrt(2)/(2*sqrt(3 - sqrt(5)))",
+      "sqrt(2)/(2*sqrt(3 - sqrt(5)))",
+      "sqrt(2)/(2*sqrt(3 - sqrt(5)))"
+    ],
+    "A1": [
+      "(-sqrt(10) - sqrt(2))/(4*sqrt(3 - sqrt(5)))",
+      "0",
+      "sqrt(2)/((1 + sqrt(5))*sqrt(3 - sqrt(5)))"
+    ],
+    "A2": [
+      "(-sqrt(10) - sqrt(2))/(4*sqrt(3 - sqrt(5)))",
+      "0",
+      "-sqrt(2)/((1 + sqrt(5))*sqrt(3 - sqrt(5)))"
+    ],
+    "A3": [
+      "-sqrt(2)/(2*sqrt(3 - sqrt(5)))",
+      "sqrt(2)/(2*sqrt(3 - sqrt(5)))",
+      "-sqrt(2)/(2*sqrt(3 - sqrt(5)))"
+    ],
+    "A4": [
+      "-sqrt(2)/((1 + sqrt(5))*sqrt(3 - sqrt(5)))",
+      "(sqrt(2) + sqrt(10))/(4*sqrt(3 - sqrt(5)))",
+      "0"
+    ],
+    "A5": [
+      "-sqrt(2)/(2*sqrt(3 - sqrt(5)))",
+      "-sqrt(2)/(2*sqrt(3 - sqrt(5)))",
+      "sqrt(2)/(2*sqrt(3 - sqrt(5)))"
+    ],
+    "A6": [
+      "0",
+      "-sqrt(2)/((1 + sqrt(5))*sqrt(3 - sqrt(5)))",
+      "(sqrt(2) + sqrt(10))/(4*sqrt(3 - sqrt(5)))"
+    ],
+    "A7": [
+      "0",
+      "sqrt(2)/((1 + sqrt(5))*sqrt(3 - sqrt(5)))",
+      "(sqrt(2) + sqrt(10))/(4*sqrt(3 - sqrt(5)))"
+    ],
+    "A8": [
+      "-sqrt(2)/(2*sqrt(3 - sqrt(5)))",
+      "-sqrt(2)/(2*sqrt(3 - sqrt(5)))",
+      "-sqrt(2)/(2*sqrt(3 - sqrt(5)))"
+    ],
+    "A9": [
+      "-sqrt(2)/((1 + sqrt(5))*sqrt(3 - sqrt(5)))",
+      "(-sqrt(10) - sqrt(2))/(4*sqrt(3 - sqrt(5)))",
+      "0"
+    ],
+    "A10": [
+      "-sqrt(2)/(2*sqrt(3 - sqrt(5)))",
+      "-sqrt(2)/(2*sqrt(3 - sqrt(5)))",
+      "sqrt(2)/(2*sqrt(3 - sqrt(5)))"
+    ],
+    "A11": [
+      "-sqrt(2)/(2*sqrt(3 - sqrt(5)))",
+      "-sqrt(2)/(2*sqrt(3 - sqrt(5)))",
+      "-sqrt(2)/(2*sqrt(3 - sqrt(5)))"
+    ],
+    "A12": [
+      "0",
+      "-sqrt(2)/((1 + sqrt(5))*sqrt(3 - sqrt(5)))",
+      "(-sqrt(10) - sqrt(2))/(4*sqrt(3 - sqrt(5)))"
+    ],
+    "A13": [
+      "0",
+      "sqrt(2)/((1 + sqrt(5))*sqrt(3 - sqrt(5)))",
+      "(-sqrt(10) - sqrt(2))/(4*sqrt(3 - sqrt(5)))"
+    ],
+    "A14": [
+      "0",
+      "sqrt(2)/((1 + sqrt(5))*sqrt(3 - sqrt(5)))",
+      "(-sqrt(10) - sqrt(2))/(4*sqrt(3 - sqrt(5)))"
+    ],
+    "A15": [
+      "sqrt(2)/(2*sqrt(3 - sqrt(5)))",
+      "sqrt(2)/(2*sqrt(3 - sqrt(5)))",
+      "-sqrt(2)/(2*sqrt(3 - sqrt(5)))"
+    ],
+    "A16": [
+      "sqrt(2)/((1 + sqrt(5))*sqrt(3 - sqrt(5)))",
+      "(sqrt(2) + sqrt(10))/(4*sqrt(3 - sqrt(5)))",
+      "0"
+    ],
+    "A17": [
+      "sqrt(2)/((1 + sqrt(5))*sqrt(3 - sqrt(5)))",
+      "(sqrt(2) + sqrt(10))/(4*sqrt(3 - sqrt(5)))",
+      "0"
+    ],
+    "A18": [
+      "sqrt(2)/(2*sqrt(3 - sqrt(5)))",
+      "sqrt(2)/(2*sqrt(3 - sqrt(5)))",
+      "sqrt(2)/(2*sqrt(3 - sqrt(5)))"
+    ],
+    "A19": [
+      "0",
+      "sqrt(2)/((1 + sqrt(5))*sqrt(3 - sqrt(5)))",
+      "(sqrt(2) + sqrt(10))/(4*sqrt(3 - sqrt(5)))"
+    ],
+    "B0": [
+      "sqrt(2)/(2*sqrt(3 - sqrt(5)))",
+      "-sqrt(2)/(2*sqrt(3 - sqrt(5)))",
+      "sqrt(2)/(2*sqrt(3 - sqrt(5)))"
+    ],
+    "B1": [
+      "sqrt(2)/((1 + sqrt(5))*sqrt(3 - sqrt(5)))",
+      "(-sqrt(10) - sqrt(2))/(4*sqrt(3 - sqrt(5)))",
+      "0"
+    ],
+    "B2": [
+      "sqrt(2)/(2*sqrt(3 - sqrt(5)))",
+      "-sqrt(2)/(2*sqrt(3 - sqrt(5)))",
+      "-sqrt(2)/(2*sqrt(3 - sqrt(5)))"
+    ],
+    "B3": [
+      "(sqrt(2) + sqrt(10))/(4*sqrt(3 - sqrt(5)))",
+      "0",
+      "-sqrt(2)/((1 + sqrt(5))*sqrt(3 - sqrt(5)))"
+    ],
+    "B4": [
+      "(sqrt(2) + sqrt(10))/(4*sqrt(3 - sqrt(5)))",
+      "0",
+      "sqrt(2)/((1 + sqrt(5))*sqrt(3 - sqrt(5)))"
+    ],
+    "B5": [
+      "-sqrt(2)/((1 + sqrt(5))*sqrt(3 - sqrt(5)))",
+      "(-sqrt(10) - sqrt(2))/(4*sqrt(3 - sqrt(5)))",
+      "0"
+    ],
+    "B6": [
+      "-sqrt(2)/(2*sqrt(3 - sqrt(5)))",
+      "-sqrt(2)/(2*sqrt(3 - sqrt(5)))",
+      "sqrt(2)/(2*sqrt(3 - sqrt(5)))"
+    ],
+    "B7": [
+      "0",
+      "-sqrt(2)/((1 + sqrt(5))*sqrt(3 - sqrt(5)))",
+      "(sqrt(2) + sqrt(10))/(4*sqrt(3 - sqrt(5)))"
+    ],
+    "B8": [
+      "0",
+      "-sqrt(2)/((1 + sqrt(5))*sqrt(3 - sqrt(5)))",
+      "(-sqrt(10) - sqrt(2))/(4*sqrt(3 - sqrt(5)))"
+    ],
+    "B9": [
+      "-sqrt(2)/(2*sqrt(3 - sqrt(5)))",
+      "-sqrt(2)/(2*sqrt(3 - sqrt(5)))",
+      "-sqrt(2)/(2*sqrt(3 - sqrt(5)))"
+    ],
+    "B10": [
+      "-sqrt(2)/((1 + sqrt(5))*sqrt(3 - sqrt(5)))",
+      "(-sqrt(10) - sqrt(2))/(4*sqrt(3 - sqrt(5)))",
+      "0"
+    ],
+    "B11": [
+      "0",
+      "-sqrt(2)/((1 + sqrt(5))*sqrt(3 - sqrt(5)))",
+      "(-sqrt(10) - sqrt(2))/(4*sqrt(3 - sqrt(5)))"
+    ],
+    "B12": [
+      "0",
+      "sqrt(2)/((1 + sqrt(5))*sqrt(3 - sqrt(5)))",
+      "(-sqrt(10) - sqrt(2))/(4*sqrt(3 - sqrt(5)))"
+    ],
+    "B13": [
+      "sqrt(2)/(2*sqrt(3 - sqrt(5)))",
+      "sqrt(2)/(2*sqrt(3 - sqrt(5)))",
+      "-sqrt(2)/(2*sqrt(3 - sqrt(5)))"
+    ],
+    "B14": [
+      "sqrt(2)/(2*sqrt(3 - sqrt(5)))",
+      "sqrt(2)/(2*sqrt(3 - sqrt(5)))",
+      "-sqrt(2)/(2*sqrt(3 - sqrt(5)))"
+    ],
+    "B15": [
+      "sqrt(2)/((1 + sqrt(5))*sqrt(3 - sqrt(5)))",
+      "(sqrt(2) + sqrt(10))/(4*sqrt(3 - sqrt(5)))",
+      "0"
+    ],
+    "B16": [
+      "sqrt(2)/(2*sqrt(3 - sqrt(5)))",
+      "sqrt(2)/(2*sqrt(3 - sqrt(5)))",
+      "sqrt(2)/(2*sqrt(3 - sqrt(5)))"
+    ],
+    "B17": [
+      "sqrt(2)/(2*sqrt(3 - sqrt(5)))",
+      "sqrt(2)/(2*sqrt(3 - sqrt(5)))",
+      "sqrt(2)/(2*sqrt(3 - sqrt(5)))"
+    ],
+    "B18": [
+      "0",
+      "sqrt(2)/((1 + sqrt(5))*sqrt(3 - sqrt(5)))",
+      "(sqrt(2) + sqrt(10))/(4*sqrt(3 - sqrt(5)))"
+    ],
+    "B19": [
+      "0",
+      "-sqrt(2)/((1 + sqrt(5))*sqrt(3 - sqrt(5)))",
+      "(sqrt(2) + sqrt(10))/(4*sqrt(3 - sqrt(5)))"
+    ]
+  }
+}

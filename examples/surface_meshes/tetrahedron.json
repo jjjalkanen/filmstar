@@ -1,0 +1,36 @@
+{
+  "name": "tetrahedron_surface",
+  "parameter_mesh": "../meshes/tetrahedron.json",
+  "spatial_vertices": {
+    "C0": [
+      "-sqrt(2)/2",
+      "sqrt(2)/2",
+      "-sqrt(2)/2"
+    ],
+    "C1": [
+      "-sqrt(2)/2",
+      "-sqrt(2)/2",
+      "sqrt(2)/2"
+    ],
+    "C2": [
+      "-sqrt(2)/2",
+      "sqrt(2)/2",
+      "-sqrt(2)/2"
+    ],
+    "C3": [
+      "sqrt(2)/2",
+      "-sqrt(2)/2",
+      "-sqrt(2)/2"
+    ],
+    "C4": [
+      "sqrt(2)/2",
+      "sqrt(2)/2",
+      "sqrt(2)/2"
+    ],
+    "C5": [
+      "-sqrt(2)/2",
+      "sqrt(2)/2",
+      "-sqrt(2)/2"
+    ]
+  }
+}

@@ -1,0 +1,387 @@
+{
+  "name": "paper",
+  "vertices": {
+    "tl": [
+      "-sqrt(2)",
+      1
+    ],
+    "tm": [
+      0,
+      1
+    ],
+    "tr": [
+      "sqrt(2)",
+      1
+    ],
+    "bl": [
+      "-sqrt(2)",
+      -1
+    ],
+    "bm": [
+      0,
+      -1
+    ],
+    "br": [
+      "sqrt(2)",
+      -1
+    ],
+    "vl": [
+      -1,
+      0
+    ],
+    "vr": [
+      1,
+      0
+    ]
+  },
+  "edges": [
+    {
+      "id": "g1",
+      "vertices": [
+        "vl",
+        "tm"
+      ],
+      "polynomial": "y+x**2-1",
+      "faces": [
+        1,
+        2
+      ],
+      "curve": {
+        "dx": "t",
+        "dy": "-t**2 + 2*t"
+      }
+    },
+    {
+      "id": "g2",
+      "vertices": [
+        "tm",
+        "vr"
+      ],
+      "polynomial": "y+x**2-1",
+      "faces": [
+        2,
+        3
+      ],
+      "curve": {
+        "dx": "t",
+        "dy": "-t**2"
+      }
+    },
+    {
+      "id": "g3",
+      "vertices": [
+        "vr",
+        "br"
+      ],
+      "polynomial": "y+x**2-1",
+      "faces": [
+        4,
+        5
+      ],
+      "curve": {
+        "dx": "-t + sqrt(2)*t",
+        "dy": "-3*t**2 + 2*sqrt(2)*t**2 - 2*sqrt(2)*t + 2*t"
+      }
+    },
+    {
+      "id": "g4",
+      "vertices": [
+        "bl",
+        "vl"
+      ],
+      "polynomial": "y+x**2-1",
+      "faces": [
+        6,
+        7
+      ],
+      "curve": {
+        "dx": "-t + sqrt(2)*t",
+        "dy": "-3*t**2 + 2*sqrt(2)*t**2 - 2*sqrt(2)*t + 4*t"
+      }
+    },
+    {
+      "id": "h5",
+      "vertices": [
+        "tl",
+        "vl"
+      ],
+      "polynomial": "y-x**2+1",
+      "faces": [
+        1,
+        6
+      ],
+      "curve": {
+        "dx": "-t + sqrt(2)*t",
+        "dy": "-2*sqrt(2)*t**2 + 3*t**2 - 4*t + 2*sqrt(2)*t"
+      }
+    },
+    {
+      "id": "h6",
+      "vertices": [
+        "vr",
+        "tr"
+      ],
+      "polynomial": "y-x**2+1",
+      "faces": [
+        3,
+        4
+      ],
+      "curve": {
+        "dx": "-t + sqrt(2)*t",
+        "dy": "-2*sqrt(2)*t**2 + 3*t**2 - 2*t + 2*sqrt(2)*t"
+      }
+    },
+    {
+      "id": "h7",
+      "vertices": [
+        "vr",
+        "bm"
+      ],
+      "polynomial": "y-x**2+1",
+      "faces": [
+        5,
+        8
+      ],
+      "curve": {
+        "dx": "-t",
+        "dy": "t**2 - 2*t"
+      }
+    },
+    {
+      "id": "h8",
+      "vertices": [
+        "bm",
+        "vl"
+      ],
+      "polynomial": "y-x**2+1",
+      "faces": [
+        7,
+        8
+      ],
+      "curve": {
+        "dx": "-t",
+        "dy": "t**2"
+      }
+    },
+    {
+      "id": "axis",
+      "vertices": [
+        "vl",
+        "vr"
+      ],
+      "polynomial": "y",
+      "faces": [
+        2,
+        8
+      ],
+      "curve": {
+        "dx": "2*t",
+        "dy": "0"
+      }
+    },
+    {
+      "id": "top_left",
+      "vertices": [
+        "tl",
+        "tm"
+      ],
+      "polynomial": "y-1",
+      "faces": [
+        1
+      ],
+      "curve": {
+        "dx": "sqrt(2)*t",
+        "dy": "0"
+      }
+    },
+    {
+      "id": "top_right",
+      "vertices": [
+        "tm",
+        "tr"
+      ],
+      "polynomial": "y-1",
+      "faces": [
+        3
+      ],
+      "curve": {
+        "dx": "sqrt(2)*t",
+        "dy": "0"
+      }
+    },
+    {
+      "id": "right",
+      "vertices": [
+        "tr",
+        "br"
+      ],
+      "polynomial": "x-sqrt(2)",
+      "faces": [
+        4
+      ],
+      "curve": {
+        "dx": "0",
+        "dy": "-2*t"
+      }
+    },
+    {
+      "id": "bottom_right",
+      "vertices": [
+        "br",
+        "bm"
+      ],
+      "polynomial": "y+1",
+      "faces": [
+        5
+      ],
+      "curve": {
+        "dx": "-sqrt(2)*t",
+        "dy": "0"
+      }
+    },
+    {
+      "id": "bottom_left",
+      "vertices": [
+        "bm",
+        "bl"
+      ],
+      "polynomial": "y+1",
+      "faces": [
+        7
+      ],
+      "curve": {
+        "dx": "-sqrt(2)*t",
+        "dy": "0"
+      }
+    },
+    {
+      "id": "left",
+      "vertices": [
+        "bl",
+        "tl"
+      ],
+      "polynomial": "x+sqrt(2)",
+      "faces": [
+        6
+      ],
+      "curve": {
+        "dx": "0",
+        "dy": "2*t"
+      }
+    }
+  ],
+  "faces": [
+    {
+      "id": 1,
+      "grid": {
+        "y": [
+          "0",
+          "1"
+        ],
+        "x": [
+          "-sqrt(1+y)",
+          "-sqrt(1-y)"
+        ]
+      },
+      "local_origin": "vl"
+    },
+    {
+      "id": 2,
+      "grid": {
+        "y": [
+          "0",
+          "1"
+        ],
+        "x": [
+          "-sqrt(1-y)",
+          "sqrt(1-y)"
+        ]
+      },
+      "local_origin": "vl"
+    },
+    {
+      "id": 3,
+      "grid": {
+        "y": [
+          "0",
+          "1"
+        ],
+        "x": [
+          "sqrt(1-y)",
+          "sqrt(1+y)"
+        ]
+      },
+      "local_origin": "vr"
+    },
+    {
+      "id": 4,
+      "grid": {
+        "y": [
+          "-1",
+          "1"
+        ],
+        "x": [
+          "sqrt(1+Abs(y))",
+          "sqrt(2)"
+        ]
+      },
+      "local_origin": "br"
+    },
+    {
+      "id": 5,
+      "grid": {
+        "y": [
+          "-1",
+          "0"
+        ],
+        "x": [
+          "sqrt(1+y)",
+          "sqrt(1-y)"
+        ]
+      },
+      "local_origin": "bm"
+    },
+    {
+      "id": 6,
+      "grid": {
+        "y": [
+          "-1",
+          "1"
+        ],
+        "x": [
+          "-sqrt(2)",
+          "-sqrt(1+Abs(y))"
+        ]
+      },
+      "local_origin": "bl"
+    },
+    {
+      "id": 7,
+      "grid": {
+        "y": [
+          "-1",
+          "0"
+        ],
+        "x": [
+          "-sqrt(1-y)",
+          "-sqrt(1+y)"
+        ]
+      },
+      "local_origin": "bl"
+    },
+    {
+      "id": 8,
+      "grid": {
+        "y": [
+          "-1",
+          "0"
+        ],
+        "x": [
+          "-sqrt(1+y)",
+          "sqrt(1+y)"
+        ]
+      },
+      "local_origin": "bm"
+    }
+  ]
+}

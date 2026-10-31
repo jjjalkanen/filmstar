@@ -1,0 +1,224 @@
+{
+  "name": "tetrahedron",
+  "vertices": {
+    "C0": [
+      "0",
+      "0"
+    ],
+    "C1": [
+      "2",
+      "0"
+    ],
+    "C2": [
+      "4",
+      "0"
+    ],
+    "C3": [
+      "1",
+      "sqrt(3)"
+    ],
+    "C4": [
+      "3",
+      "sqrt(3)"
+    ],
+    "C5": [
+      "2",
+      "2*sqrt(3)"
+    ]
+  },
+  "edges": [
+    {
+      "id": "e5",
+      "vertices": [
+        "C1",
+        "C4"
+      ],
+      "polynomial": "-sqrt(3)*x + y + 2*sqrt(3)",
+      "faces": [
+        "F1",
+        "F3"
+      ],
+      "curve": {
+        "dx": "t",
+        "dy": "sqrt(3)*t"
+      }
+    },
+    {
+      "id": "e7",
+      "vertices": [
+        "C3",
+        "C4"
+      ],
+      "polynomial": "2*y - 2*sqrt(3)",
+      "faces": [
+        "F1",
+        "F4"
+      ],
+      "curve": {
+        "dx": "2*t",
+        "dy": "0"
+      }
+    },
+    {
+      "id": "e4",
+      "vertices": [
+        "C1",
+        "C3"
+      ],
+      "polynomial": "-sqrt(3)*x - y + 2*sqrt(3)",
+      "faces": [
+        "F1",
+        "F2"
+      ],
+      "curve": {
+        "dx": "-t",
+        "dy": "sqrt(3)*t"
+      }
+    },
+    {
+      "id": "e1",
+      "vertices": [
+        "C0",
+        "C1"
+      ],
+      "polynomial": "2*y",
+      "faces": [
+        "F2"
+      ],
+      "curve": {
+        "dx": "2*t",
+        "dy": "0"
+      }
+    },
+    {
+      "id": "e3",
+      "vertices": [
+        "C0",
+        "C3"
+      ],
+      "polynomial": "-sqrt(3)*x + y",
+      "faces": [
+        "F2"
+      ],
+      "curve": {
+        "dx": "t",
+        "dy": "sqrt(3)*t"
+      }
+    },
+    {
+      "id": "e2",
+      "vertices": [
+        "C1",
+        "C2"
+      ],
+      "polynomial": "2*y",
+      "faces": [
+        "F3"
+      ],
+      "curve": {
+        "dx": "2*t",
+        "dy": "0"
+      }
+    },
+    {
+      "id": "e6",
+      "vertices": [
+        "C2",
+        "C4"
+      ],
+      "polynomial": "-sqrt(3)*x - y + 4*sqrt(3)",
+      "faces": [
+        "F3"
+      ],
+      "curve": {
+        "dx": "-t",
+        "dy": "sqrt(3)*t"
+      }
+    },
+    {
+      "id": "e9",
+      "vertices": [
+        "C4",
+        "C5"
+      ],
+      "polynomial": "-sqrt(3)*x - y + 4*sqrt(3)",
+      "faces": [
+        "F4"
+      ],
+      "curve": {
+        "dx": "-t",
+        "dy": "sqrt(3)*t"
+      }
+    },
+    {
+      "id": "e8",
+      "vertices": [
+        "C3",
+        "C5"
+      ],
+      "polynomial": "-sqrt(3)*x + y",
+      "faces": [
+        "F4"
+      ],
+      "curve": {
+        "dx": "t",
+        "dy": "sqrt(3)*t"
+      }
+    }
+  ],
+  "faces": [
+    {
+      "id": "F1",
+      "local_origin": "C1",
+      "corners": [
+        "C1",
+        "C4",
+        "C3"
+      ]
+    },
+    {
+      "id": "F2",
+      "local_origin": "C0",
+      "corners": [
+        "C0",
+        "C1",
+        "C3"
+      ]
+    },
+    {
+      "id": "F3",
+      "local_origin": "C1",
+      "corners": [
+        "C1",
+        "C2",
+        "C4"
+      ]
+    },
+    {
+      "id": "F4",
+      "local_origin": "C3",
+      "corners": [
+        "C3",
+        "C4",
+        "C5"
+      ]
+    }
+  ],
+  "edge_identifications": [
+    {
+      "id": "glue_1",
+      "source": "e3",
+      "target": "e8"
+    },
+    {
+      "id": "glue_2",
+      "source": "e1",
+      "target": "e2"
+    },
+    {
+      "id": "glue_3",
+      "source": "e6",
+      "target": "e9"
+    }
+  ]
+}
